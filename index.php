@@ -30,7 +30,6 @@ function login() {
         $password=hash('sha256',$data->password);
         $stmt->bindParam("password", $password, PDO::PARAM_STR);
         $stmt->execute();
-        $mainCount=$stmt->rowCount();
         $userData = $stmt->fetch(PDO::FETCH_OBJ);
         
         if(!empty($userData))
