@@ -11,7 +11,7 @@ define('DB_SERVER', 'localhost');
 define('DB_USERNAME', 'root');
 define('DB_PASSWORD', '');
 define('DB_DATABASE', 'ionic');	// ชื่อฐานข้อมูล
-define("BASE_URL", "http://localhost/ionic/"); // ที่อยู่เว็บ
+define("BASE_URL", "http://localhost/php-slim-api-master/"); // ที่อยู่เว็บ
 
 //เชื่อมต่อกับฐานข้อมูล
 function getDB() 
