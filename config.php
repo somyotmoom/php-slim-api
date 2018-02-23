@@ -3,8 +3,8 @@
 error_reporting(0);
 session_start();
 
-header("Access-Control-Allow-Origin:*"); // อนูญาตให้โปรแกรมอื่นสามารถดึงข้อมูลได้
-header("Content-Type: application/json; charset=UTF-8"); // แสดงภาษาไทย
+//header("Access-Control-Allow-Origin:*"); // อนูญาตให้โปรแกรมอื่นสามารถดึงข้อมูลได้
+//header("Content-Type: application/json; charset=UTF-8"); // แสดงภาษาไทย
 
 //การกำหนดค่าฐานข้อมูล
 define('DB_SERVER', 'localhost');
